@@ -85,7 +85,7 @@ namespace Hangman
                     Console.Clear();
 
                     Console.WriteLine("###########################");
-                Console.WriteLine("### Welcome to Hangman! ###");
+                    Console.WriteLine("### Welcome to Hangman! ###");
                     Console.WriteLine("###########################");
             
                     //formatting so text is easy to read
@@ -99,6 +99,28 @@ namespace Hangman
                     Console.WriteLine(guess);
                     Console.WriteLine();
                     Console.WriteLine("Please enter a single letter!");
+                    Console.WriteLine();
+                    goto MultiLettr;
+                }
+
+                if (playerGuessStr.Length < 1){
+                    Console.Clear();
+
+                    Console.WriteLine("###########################");
+                    Console.WriteLine("### Welcome to Hangman! ###");
+                    Console.WriteLine("###########################");
+            
+                    //formatting so text is easy to read
+                    Console.WriteLine();
+
+                    Console.WriteLine($"You have {tries} tries remaining");
+                    Console.WriteLine();
+                
+                    Console.WriteLine("Word Status");
+                    Console.WriteLine();
+                    Console.WriteLine(guess);
+                    Console.WriteLine();
+                    Console.WriteLine("Please enter a letter!");
                     Console.WriteLine();
                     goto MultiLettr;
                 }
