@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8phUqvwxhxux4bWlinKAeVbi9AU0ELXjvEu4KipmIyxWpYznRbvyuvbX94BNxDMaYLPNocxjRnEAibb3o5gaqg==",
+  "dgSpecHash": "4g4ihg/Ij2iFbyjbcoo+pC8W5TkOy5Kga9EnYZYwbsAOiaLOP0Abdnbg/35/Nzxzu2NwGPJlKVHRaHO1492j8A==",
   "success": true,
-  "projectFilePath": "/home/luukdafur/Coding Projects/C# hangman/C# hangman.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/luukdafur/Coding Projects/Csharp-Hangman/C# hangman.csproj",
+  "expectedPackageFiles": [
+    "/home/luukdafur/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
