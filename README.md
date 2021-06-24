@@ -15,6 +15,4 @@ The game should start
 \
 TODO:
 
-Add a variable that ends the game when you try too many times
-
-Create a more user-friendly interface
+Add a graphical response to the amount of tries left
